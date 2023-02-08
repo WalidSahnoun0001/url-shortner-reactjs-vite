@@ -1,0 +1,24 @@
+.boost {
+    background-image: url('/images/bg-boost-desktop.svg');
+    height: 200px;
+    text-align: center;
+    color: #fff;
+    background-color: hsl(257, 27%, 26%);
+    background-size: cover;
+    display: grid;
+    place-content: center;
+}
+.boost .get-started button {
+    color: #fff;
+    background-color: hsl(180, 66%, 49%);
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+.boost .get-started {
+    margin-top: 25px;
+}
+.boost .get-started button:hover {
+    background-color: hsla(180, 66%, 49%, 0.482);
+}

@@ -1,0 +1,164 @@
+.shortner {
+    width: 80%;
+    margin: 0 auto;
+}
+.shortner form {
+    background-image: url('/public/images/bg-shorten-desktop.svg');
+    padding: 25px 25px;
+    background-color: hsl(257, 27%, 26%);
+    border-radius: 10px;
+    display: flex;
+    gap: 25px;
+    position: relative;
+    top: -40px;
+}
+.shortner form input {
+    width: 90%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+.shortner form button {
+    color: #fff;
+    border: none;
+    background-color: hsl(180, 66%, 49%);
+    width: calc(100% - 90%);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.shortner form button:hover {
+    background-color: hsla(180, 66%, 49%, 0.482);
+}
+.shortner .urls {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.shortner .urls .url {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+.shortner .urls .url .more {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.shortner .urls .url .more p {
+    color: hsl(180, 66%, 49%);
+}
+.shortner .urls .url .more .copy {
+    color: #fff;
+    background-color: hsl(180, 66%, 49%);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 13px;
+    cursor: pointer;
+}
+.shortner .urls .url .more .copy:hover {
+    background-color: hsla(180, 66%, 49%, 0.482);
+}
+.shortner .urls .url .more .copied {
+    color: #fff;
+    background-color: hsl(257, 27%, 26%);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 13px;
+    cursor: default;
+}
+.shortner .urls .url .more .delete {
+    color: #fff;
+    background-color: crimson;
+    border-radius: 5px;
+    font-size: 13px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/* Small Screens */
+
+@media (max-width: 575.98px) {
+    .shortner form {
+        display: flex;
+        flex-direction: column;
+    }
+    .shortner form input {
+        width: 100%;
+    }
+    .shortner form button {
+        width: 100%;
+        padding: 10px 0;
+    }
+    .shortner .url {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .shortner .url p {
+        font-size: 12px;
+    }
+    .shortner .url .more {
+        gap: 10px !important;
+    }
+    .shortner .url .more p {
+        font-size: 12px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .shortner form {
+        display: flex;
+        flex-direction: column;
+    }
+    .shortner form input {
+        width: 100%;
+    }
+    .shortner form button {
+        width: 100%;
+        padding: 10px 0;
+    }
+    .shortner .url {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .shortner .url p {
+        font-size: 12px;
+    }
+    .shortner .url .more {
+        gap: 10px !important;
+    }
+    .shortner .url .more p {
+        font-size: 12px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .shortner form {
+        display: flex;
+        flex-direction: column;
+    }
+    .shortner form input {
+        width: 100%;
+    }
+    .shortner form button {
+        width: 100%;
+        padding: 10px 0;
+    }
+    .shortner .url {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .shortner .url p {
+        font-size: 12px;
+    }
+    .shortner .url .more {
+        gap: 10px !important;
+    }
+    .shortner .url .more p {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,93 @@
+footer {
+    background-color: hsl(255, 11%, 22%);
+}
+footer .footer-box {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+footer .footer-box ul {
+    list-style: none;
+}
+footer .footer-box .sitemap {
+    display: flex;
+    gap: 50px;
+}
+footer .footer-box .sitemap h4 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+footer .footer-box .sitemap a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+footer .footer-box .sitemap a:hover {
+    color: hsl(180, 66%, 49%);
+}
+footer .footer-box .social-media {
+    display: flex;
+    gap: 25px;
+    line-height: 2;
+}
+footer .footer-box .social-media a img {
+    width: 20px;
+}
+footer .footer-box .social-media a:hover svg path {
+    fill: hsl(180, 66%, 49%);
+}
+
+/* Small Screens */
+@media (max-width: 575.98px) {
+    footer .footer-box {
+        display: block;
+        text-align: center;
+    }
+    footer .footer-box svg {
+        margin-bottom: 25px;
+    }
+    footer .footer-box .sitemap {
+        display: flex;
+        flex-direction: column;
+    }
+    footer .footer-box .social-media {
+        margin-top: 50px;
+        justify-content: center;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    footer .footer-box {
+        display: block;
+        text-align: center;
+    }
+    footer .footer-box svg {
+        margin-bottom: 25px;
+    }
+    footer .footer-box .sitemap {
+        display: flex;
+        flex-direction: column;
+    }
+    footer .footer-box .social-media {
+        margin-top: 50px;
+        justify-content: center;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    footer .footer-box {
+        display: block;
+        text-align: center;
+    }
+    footer .footer-box svg {
+        margin-bottom: 25px;
+    }
+    footer .footer-box .sitemap {
+        display: flex;
+        flex-direction: column;
+    }
+    footer .footer-box .social-media {
+        margin-top: 50px;
+        justify-content: center;
+    }
+}

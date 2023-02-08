@@ -1,0 +1,193 @@
+header {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 25px 0;
+}
+header img {
+    width: 100px;
+}
+header .navbar-links {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header nav {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+header nav ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+header .links {
+    display: flex;
+    gap: 25px;
+}
+header a {
+    color: hsl(257, 7%, 63%);
+    text-decoration: none;
+    font-size: 14px;
+}
+header a:not(.signup):hover {
+    color: hsl(257, 27%, 26%);
+}
+header a.signup {
+    color: #fff;
+    background-color: hsl(180, 66%, 49%);
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+header a.signup:hover {
+    background-color: hsla(180, 66%, 49%, 0.482);
+}
+
+
+
+/* Small Screens */
+
+@media (max-width: 575.98px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+    }
+    header nav ul {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    header .navbar-links {
+        position: absolute;
+        display: none;
+        flex-direction: column;
+        top: 80px;
+        left: 0;
+        background-color: hsl(257, 27%, 26%);
+        width: 100%;
+        text-align: center;
+        padding: 25px 0;
+        border-radius: 10px;
+    }
+    header .navbar-links nav {
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 25px;
+    }
+    header .navbar-links nav::after {
+        position: absolute;
+        content: '';
+        background-color: hsl(257, 7%, 63%);
+        width: 90%;
+        height: .5px;
+        top: 55%;
+    }
+    header .links {
+        margin-top: 25px;
+        display: flex;
+        flex-direction: column;
+    }
+    header .links .signup {
+        width: 90%;
+        margin: 0 auto;
+        display: block;
+    }
+    header .menu {
+        position: absolute;
+        width: 75px;
+        height: 35px;
+        text-align: center;
+        right: 0;
+    }
+    header .menu span {
+        position: absolute;
+        width: 35px;
+        height: 5px;
+        background-color: hsl(257, 27%, 26%);
+    }
+    header .menu span:nth-child(2) {
+        margin-top: 10px;
+    }
+    header .menu span:nth-child(3) {
+        margin-top: 20px;
+    }
+    header .open {
+        display: flex;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+    }
+    header nav ul {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    header .navbar-links {
+        position: absolute;
+        display: none;
+        flex-direction: column;
+        top: 80px;
+        left: 0;
+        background-color: hsl(257, 27%, 26%);
+        width: 100%;
+        text-align: center;
+        padding: 25px 0;
+        border-radius: 10px;
+    }
+    header .navbar-links nav {
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 25px;
+    }
+    header .navbar-links nav::after {
+        position: absolute;
+        content: '';
+        background-color: hsl(257, 7%, 63%);
+        width: 90%;
+        height: .5px;
+        top: 55%;
+    }
+    header .links {
+        margin-top: 25px;
+        display: flex;
+        flex-direction: column;
+    }
+    header .links .signup {
+        width: 90%;
+        margin: 0 auto;
+        display: block;
+    }
+    header .menu {
+        position: absolute;
+        width: 75px;
+        height: 35px;
+        text-align: center;
+        right: 0;
+    }
+    header .menu span {
+        position: absolute;
+        width: 35px;
+        height: 5px;
+        background-color: hsl(257, 27%, 26%);
+    }
+    header .menu span:nth-child(2) {
+        margin-top: 10px;
+    }
+    header .menu span:nth-child(3) {
+        margin-top: 20px;
+    }
+    header .open {
+        display: flex;
+    }
+}

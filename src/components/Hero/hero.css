@@ -1,0 +1,133 @@
+.hero {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    height: 85vh;
+}
+.hero div h2 {
+    font-size: 45px;
+    line-height: 1.2;
+    width: 60%;
+}
+.hero div p {
+    font-size: 14px;
+    width: 55%;
+    line-height: 1.8;
+    color: hsl(257, 7%, 63%);
+    margin: 10px 0;
+}
+.hero figure {
+    width: 50%;
+    text-align: right;
+}
+.hero figure img {
+    width: 450px;
+}
+.hero div .get-started button {
+    color: #fff;
+    background-color: hsl(180, 66%, 49%);
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+.hero div .get-started {
+    margin-top: 25px;
+}
+.hero div .get-started button:hover {
+    background-color: hsla(180, 66%, 49%, 0.482);
+}
+
+
+/* Small Screens */
+
+@media (max-width: 575.98px) {
+    .hero {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .hero figure {
+        width: 100%;
+        text-align: center;
+    }
+    .hero div {
+        padding: 50px 0;
+    }
+    .hero div h2 {
+        text-align: center;
+        width: 100%;
+    }
+    .hero div p {
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .hero div .get-started {
+        text-align: center;
+        margin-top: 0;
+    }
+    .hero figure img {
+        width: 350px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .hero {
+        display: flex;
+        flex-direction: column-reverse;
+        height: 90vh;
+    }
+    .hero figure {
+        width: 100%;
+        text-align: center;
+    }
+    .hero div {
+        padding: 50px 0;
+    }
+    .hero div h2 {
+        text-align: center;
+        width: 100%;
+    }
+    .hero div p {
+        width: 70%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .hero div .get-started {
+        text-align: center;
+        margin-top: 0;
+    }
+    .hero figure img {
+        width: 450px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .hero {
+        display: flex;
+        flex-direction: column-reverse;
+        height: 80vh;
+    }
+    .hero figure {
+        width: 100%;
+        text-align: center;
+    }
+    .hero div {
+        padding: 50px 0;
+    }
+    .hero div h2 {
+        text-align: center;
+        width: 100%;
+    }
+    .hero div p {
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .hero div .get-started {
+        text-align: center;
+        margin-top: 0;
+    }
+    .hero figure img {
+        width: 450px;
+    }
+}
